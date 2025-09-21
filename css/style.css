@@ -1,0 +1,240 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav {
+    background: white;
+    width: 100%;
+    height: 65px;
+    background: white;
+    width: 100%;
+    height: 65px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 50px;
+    position: fixed;
+    top: 0;
+    z-index: 1;
+}
+
+.menu a {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 21px;
+    font-family: cursive;
+    margin: 0 10px;
+    color: #f0326e;
+}
+
+.menu button {
+    width: 142px;
+    height: 38px;
+    background: #f0326e;
+    border: none;
+    color: white;
+    font-size: 19px;
+    font-weight: bold;
+
+}
+
+.banner {
+    /* background: rgb(100, 100, 100); */
+    /* background: rgba(213, 147, 147, 0.5);/ */
+    /* background: linear-gradient(to right,red,black); */
+    background: url(/image/about-foodpanda-1920x539.jpeg);
+    color: white;
+    width: 100%;
+    height: 450px;
+    background-position: center;
+    background-size: cover;
+}
+
+.banner h2 {
+    text-align: center;
+    font-size: 60px;
+    font-family: cursive;
+
+    background: yellow;
+    margin: auto;
+    width: 50%;
+    position: relative;
+    top: 150px;
+}
+
+.news {
+    background: #f0326e;
+    width: 100%;
+    height: 50px;
+    color: white;
+}
+
+.news marquee {
+    font-size: 23px;
+    line-height: 50px;
+}
+
+.about {
+    padding: 140px 200px;
+    text-align: center;
+}
+
+.about h2 {
+    font-size: 25px;
+    letter-spacing: 1px;
+    word-spacing: 2px;
+    margin-bottom: 6px;
+}
+
+.about p {
+    letter-spacing: 1px;
+    word-spacing: 2px;
+    margin-bottom: 6px;
+}
+
+.about button {
+    width: 142px;
+    height: 38px;
+    background: #f0326e;
+    border: none;
+    color: white;
+    font-size: 19px;
+    font-weight: bold;
+    border-radius: 8px;
+    box-shadow: 3px 3px 3px bisque;
+}
+
+.about button:hover {
+    background: linear-gradient(to right, yellow, blue);
+}
+
+.press {
+    background: linear-gradient(rgba(0,0,0,0.8)),url(/image/about-foodpanda-1920x539.jpeg);
+    padding: 140px 200px;
+    text-align: center;
+    color: white;
+    background-attachment: fixed;
+}
+
+.press h2 {
+    font-size: 25px;
+    letter-spacing: 1px;
+    word-spacing: 2px;
+    margin-bottom: 6px;
+}
+
+.press p {
+    letter-spacing: 1px;
+    word-spacing: 2px;
+    margin-bottom: 6px;
+}
+
+.press button {
+    width: 142px;
+    height: 38px;
+    background: #f0326e;
+    border: none;
+    color: white;
+    font-size: 19px;
+    font-weight: bold;
+    border-radius: 8px;
+    box-shadow: 3px 3px 3px bisque;
+}
+
+.press button:hover {
+    background: linear-gradient(to right, yellow, blue);
+}
+
+.team {
+    background: linear-gradient(rgba(0,0,0,0.8)),url(/image/about-foodpanda-1920x539.jpeg);
+    padding: 140px 200px;
+    text-align: center;
+    color: white;
+    background-attachment: fixed;
+}
+
+.team h2 {
+    font-size: 25px;
+    letter-spacing: 1px;
+    word-spacing: 2px;
+    margin-bottom: 6px;
+}
+
+.team p {
+    letter-spacing: 1px;
+    word-spacing: 2px;
+    margin-bottom: 6px;
+}
+
+.team button {
+    width: 142px;
+    height: 38px;
+    background: #f0326e;
+    border: none;
+    color: white;
+    font-size: 19px;
+    font-weight: bold;
+    border-radius: 8px;
+    box-shadow: 3px 3px 3px bisque;
+}
+
+.team button:hover {
+    background: linear-gradient(to right, yellow, blue);
+}
+
+.contact {
+    background: pink;
+    padding: 140px 200px;
+    text-align: center;
+    color: white;
+    background-attachment: fixed;
+}
+
+.contact h2 {
+    font-size: 25px;
+    letter-spacing: 1px;
+    word-spacing: 2px;
+    margin-bottom: 6px;
+}
+
+.contact p {
+    letter-spacing: 1px;
+    word-spacing: 2px;
+    margin-bottom: 6px;
+}
+
+.contact button {
+    width: 142px;
+    height: 38px;
+    background: #f0326e;
+    border: none;
+    color: white;
+    font-size: 19px;
+    font-weight: bold;
+    border-radius: 8px;
+    box-shadow: 3px 3px 3px bisque;
+}
+
+.contact button:hover {
+    background: linear-gradient(to right, yellow, blue);
+}
+
+footer{
+    background: black;
+    color: white;
+    width: 100%;
+    height: 300px;
+}
+footer .box1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 150px;
+}
+
+footer .box2{
+    text-align: center;
+    padding-top: 20px;
+}
